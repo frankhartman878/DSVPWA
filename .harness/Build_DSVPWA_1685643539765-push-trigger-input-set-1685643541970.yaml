@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_DSVPWA_1685643539765-push-trigger-input-set
+  identifier: Build_DSVPWA_1685643539765pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_DSVPWA_1685643539765
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
